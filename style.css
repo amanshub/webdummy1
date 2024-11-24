@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: rgb(2, 141, 95);
+
+}
+
+nav{
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1{
+    font-size: 50px;
+}
+
+nav a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    padding: 60px 100px;
+}
+
+section .Head-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Head-text1 h1{
+    font-size: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.Head-text1 .video{
+    margin-right: 40px;
+    height: 70px;
+    width: 320px;
+    background-color: black;
+    border-radius: 40px;
+    margin-top: 5px;
+    background-image: url(https://i.pinimg.com/736x/c8/95/6c/c8956c3320abdbd11fb3363852e40655.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Head-text2 h1{
+    font-size: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+section .Head-text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.Head-text2 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 400px;
+    font-weight: 700;
+}
+
+#buttons{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 350px;
+    padding-top: 12px;
+    text-decoration: none;
+}
+
+.buttons1{
+    align-items: flex-start;
+}
+
+.buttons1 button{
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: rgb(2, 141, 95);
+    
+}
+
+.buttons2{
+    align-items: flex-end;
+}
+
+.buttons2 button{
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(58, 58, 58);
+    text-decoration: none;
+    font-weight: 600;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: rgb(2, 141, 95);
+}
+
+.image{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(https://i.pinimg.com/736x/68/bf/5f/68bf5f7f64cfccaa6f163e2e906c78c5.jpg);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+#footer{
+    height: 220px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+footer{
+    color: aliceblue;
+    display: flex;
+    margin-left: 5%;
+}
+
+#footer footer .Endtext{
+    text-align:left ;
+    align-content: center;
+    align-items: flex-start;
+    padding-top: 3%;
+    padding-left: 70px;
+    color: rgb(245, 245, 245);
+    height: 180px;
+    width: 30%;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: 22px;
+}
